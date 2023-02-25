@@ -1,0 +1,10 @@
+<p>home works!</p>
+
+<div *ngFor="let wall of wallpaperObj">
+    <img [src]="wall.links.html" alt="">
+    <div>
+       <p> Created by:- {{wall.user.name}}</p>
+       <!-- <p>Portfolio :- <a href="{{wall.user.portfolio_url}}"></a></p> -->
+
+    </div>
+</div>
